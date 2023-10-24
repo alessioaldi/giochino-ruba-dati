@@ -48,7 +48,7 @@ public class Frate extends Thread{
                 } while (nRic != n);
 
                 out.writeBytes(Integer.toString(tent) + "\n");
-                ss.close();
+                
                 s.close();
 
             } catch (Exception e) {
